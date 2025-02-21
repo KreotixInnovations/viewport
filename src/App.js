@@ -78,7 +78,7 @@ const App = () => {
       <nav className="navbar">
         <div className="logo">
           <a href="#home">
-          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
+          <img src="/KIweb/logo.png" alt="Logo" />
           </a>
         </div>
 
@@ -109,7 +109,7 @@ const App = () => {
       {/* Home Section */}
       <section id="home" className="section home">
         <video autoPlay loop muted className="video-bg">
-        <source src={`${process.env.PUBLIC_URL}/service.mp4`} type="video/mp4" />
+        <source src="/KIweb/service.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="content">
