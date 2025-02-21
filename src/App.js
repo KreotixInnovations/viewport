@@ -117,7 +117,7 @@ const App = () => {
           <div className="typewriter">
             <h2>Welcome to Kreotix Innovations !</h2>
           </div>
-        </div>
+        </div> 
       </section>
 
       {/* About Section */}
