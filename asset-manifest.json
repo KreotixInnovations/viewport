@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KIweb/static/css/main.fde8a004.css",
+    "main.js": "/KIweb/static/js/main.8dedad9b.js",
+    "static/media/iot-bg.jpg": "/KIweb/static/media/iot-bg.98a5a7bc5d785c2b4657.jpg",
+    "static/media/it-bg.jpg": "/KIweb/static/media/it-bg.f7c6f6eeca49577d5b59.jpg",
+    "static/media/digital-bg.jpg": "/KIweb/static/media/digital-bg.b232d6274ebd7b69e124.jpg",
+    "static/media/wearables-bg.jpg": "/KIweb/static/media/wearables-bg.f08239d1e71d0af4074b.jpg",
+    "index.html": "/KIweb/index.html",
+    "main.fde8a004.css.map": "/KIweb/static/css/main.fde8a004.css.map",
+    "main.8dedad9b.js.map": "/KIweb/static/js/main.8dedad9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fde8a004.css",
+    "static/js/main.8dedad9b.js"
+  ]
+}
