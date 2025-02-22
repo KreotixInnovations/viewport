@@ -41,7 +41,7 @@ body {
   background-color: rgba(147, 126, 255, 0.285) !important; /* Change to white with some transparency */
   backdrop-filter: blur(10px);
   position: sticky;
-  top: 50px; /* Adjusted to lower the initial position */
+  top: 0px; /* Adjusted to lower the initial position */
   z-index: 1000;
   font-family: 'Poppins', sans-serif; /* Change font to Poppins */
 }

@@ -82,7 +82,7 @@ const App = () => {
         <nav className="navbar">
           <div className="logo">
             <a href="#home">
-            <img src="/logo192.png" alt="Kreoptix Innovations" />
+          <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Kreotix Innovations" />
             </a>
           </div>
 
@@ -113,7 +113,7 @@ const App = () => {
       {/* Home Section */}
         <section id="home" className="section home">
           <video autoPlay loop muted className="video-bg">
-          <video src="/service.mp4"controls></video>
+            <source src={process.env.PUBLIC_URL + "/service.mp4"} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="content">
@@ -154,7 +154,7 @@ const App = () => {
           <ServiceCard title="IT Solutions" description="We provide guidance for your personal projects, help you build your portfolio, and create websites for small businesses" image={itBg} />
           <ServiceCard title="Digital Arts"  description="We provide video editing, Photoshop services, banner and poster design, digital marketing, and UI/UX consultancy" image={digitalBg} />
           <ServiceCard title="IoT & Electronics" description="We provide guidance for your personal projects, smart solutions for your company and home, PCB design, and CAD work" image={iotBg} />
-          <ServiceCard title="Wearables"  description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
+          <ServiceCard title="Wearables" description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
             </div>
           </div>
         </section>
