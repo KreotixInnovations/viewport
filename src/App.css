@@ -513,7 +513,7 @@ body {
     width: 190px; /* Adjust height for mobile view */
   }
 
-  .service-card-back{
+  .service-card-back {
     font-size: 0.70rem;
   }
 
@@ -544,5 +544,9 @@ body {
 
   .services h1 {
     font-size: 2rem;
+  }
+
+  .logo img {
+    height: 30px; /* Reduce logo size */
   }
 }
