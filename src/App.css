@@ -479,6 +479,7 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
   position: relative;
   z-index: 1;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Responsive Styles */
@@ -489,6 +490,10 @@ body {
 
   .hamburger {
     display: block;
+  }
+
+  .typewriter h2 {
+    font-size: 0.8rem;
   }
 
   .service-boxes {

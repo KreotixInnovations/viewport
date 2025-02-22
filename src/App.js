@@ -6,6 +6,8 @@ import digitalBg from "./components/digital-bg.jpg";
 import iotBg from "./components/iot-bg.jpg";
 import wearablesBg from "./components/wearables-bg.jpg";
 
+
+
 const ServiceCard = ({ title, description, image }) => {
   const [flipped, setFlipped] = useState(false);
 
@@ -14,6 +16,8 @@ const ServiceCard = ({ title, description, image }) => {
       <div className={`service-card ${flipped ? "flipped" : ""}`}>
         <div className="service-card-front" style={{ backgroundImage: `url(${image})` }}>
           <h3>{title}</h3>
+          
+
         </div>
         <div className="service-card-back">
           <p>{description}</p>
@@ -75,14 +79,14 @@ const App = () => {
   return (
     <div className="App">
       {/* Navbar */}
-      <nav className="navbar">
-        <div className="logo">
-          <a href="#home">
-          <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
-          </a>
-        </div>
+        <nav className="navbar">
+          <div className="logo">
+            <a href="#home">
+            <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="Kreoptix Innovations" />
+            </a>
+          </div>
 
-        {/* Mobile Menu */}
+          {/* Mobile Menu */}
         {isMobile ? (
           <>
             <div className="hamburger" onClick={toggleMenu}>
@@ -107,20 +111,20 @@ const App = () => {
       </nav>
 
       {/* Home Section */}
-      <section id="home" className="section home">
-        <video autoPlay loop muted className="video-bg">
-        <source src={`${process.env.PUBLIC_URL}/service.mp4`} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="content">
-          <h1 className="main-text">Innovate. Create. Transform.</h1>
-          <div className="typewriter">
-            <h2>Welcome to Kreotix Innovations !</h2>
+        <section id="home" className="section home">
+          <video autoPlay loop muted className="video-bg">
+          <video src={`${process.env.PUBLIC_URL}/service.mp4`} controls></video>
+            Your browser does not support the video tag.
+          </video>
+          <div className="content">
+            <h1 className="main-text">Innovate. Create. Transform.</h1>
+            <div className="typewriter">
+          <h2>Welcome to Kreotix Innovations !</h2>
+            </div>
           </div>
-        </div> 
-      </section>
+        </section>
 
-      {/* About Section */}
+        {/* About Section */}
       <section id="about" className="section about" ref={aboutRef}>
         <div className="content">
           <h1>About Us</h1>
@@ -148,9 +152,9 @@ const App = () => {
             <h1>Our Services</h1>
             <div className="service-boxes">
           <ServiceCard title="IT Solutions" description="We provide guidance for your personal projects, help you build your portfolio, and create websites for small businesses" image={itBg} />
-          <ServiceCard title="Digital Arts" description="We provide video editing, Photoshop services, banner and poster design, digital marketing, and UI/UX consultancy" image={digitalBg} />
+          <ServiceCard title="Digital Arts"  description="We provide video editing, Photoshop services, banner and poster design, digital marketing, and UI/UX consultancy" image={digitalBg} />
           <ServiceCard title="IoT & Electronics" description="We provide guidance for your personal projects, smart solutions for your company and home, PCB design, and CAD work" image={iotBg} />
-          <ServiceCard title="Wearables" description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
+          <ServiceCard title="Wearables"  description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
             </div>
           </div>
         </section>
