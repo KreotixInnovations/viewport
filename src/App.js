@@ -82,7 +82,7 @@ const App = () => {
         <nav className="navbar">
           <div className="logo">
             <a href="#home">
-          <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Kreotix Innovations" />
+            <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="Kreoptix Innovations" />
             </a>
           </div>
 
@@ -113,7 +113,7 @@ const App = () => {
       {/* Home Section */}
         <section id="home" className="section home">
           <video autoPlay loop muted className="video-bg">
-            <source src={process.env.PUBLIC_URL + "/service.mp4"} type="video/mp4" />
+          <video src={`${process.env.PUBLIC_URL}/service.mp4`} controls></video>
             Your browser does not support the video tag.
           </video>
           <div className="content">
