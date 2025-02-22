@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/viewport/static/css/main.decfc452.css",
+    "main.css": "/viewport/static/css/main.92cc0cdc.css",
     "main.js": "/viewport/static/js/main.7ae4c0c6.js",
     "static/media/iot-bg.jpg": "/viewport/static/media/iot-bg.98a5a7bc5d785c2b4657.jpg",
     "static/media/it-bg.jpg": "/viewport/static/media/it-bg.f7c6f6eeca49577d5b59.jpg",
     "static/media/digital-bg.jpg": "/viewport/static/media/digital-bg.b232d6274ebd7b69e124.jpg",
     "static/media/wearables-bg.jpg": "/viewport/static/media/wearables-bg.f08239d1e71d0af4074b.jpg",
     "index.html": "/viewport/index.html",
-    "main.decfc452.css.map": "/viewport/static/css/main.decfc452.css.map",
+    "main.92cc0cdc.css.map": "/viewport/static/css/main.92cc0cdc.css.map",
     "main.7ae4c0c6.js.map": "/viewport/static/js/main.7ae4c0c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.decfc452.css",
+    "static/css/main.92cc0cdc.css",
     "static/js/main.7ae4c0c6.js"
   ]
 }
