@@ -175,7 +175,7 @@ const App = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2023 Kreotix Innovations. All rights reserved.</p>
+        <p>&copy; 2025 Kreotix Innovations. All rights reserved.</p>
       </footer>
     </div>
   );
