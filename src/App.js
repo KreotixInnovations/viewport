@@ -153,8 +153,8 @@ const App = () => {
             <div className="service-boxes">
           <ServiceCard title="IT Solutions" description="We provide guidance for your personal projects, help you build your portfolio, and create websites for small businesses" image={itBg} />
           <ServiceCard title="Digital Arts"  description="We provide video editing, Photoshop services, banner and poster design, digital marketing, and UI/UX consultancy" image={digitalBg} />
-          <ServiceCard title="IoT & Electronics" description="We provide guidance for your personal projects, smart solutions for your company and home, PCB design, and CAD work" image={iotBg} />
-          <ServiceCard title="Wearables" description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
+          <ServiceCard title="3D and PCB design" description="We provide guidance for your personal projects, smart solutions for your company and home,3D design, PCB design, and CAD work" image={iotBg} />
+          <ServiceCard title="Jersey and kit Design" description="We Design and Print Jerseys for your Team, Designing Sports kits and Mockups" image={wearablesBg} />
             </div>
           </div>
         </section>
@@ -175,7 +175,7 @@ const App = () => {
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2023 Kreotix Innovations. All rights reserved.</p>
+        <p>&copy; 2025 Kreotix Innovations. All rights reserved.</p>
       </footer>
     </div>
   );
